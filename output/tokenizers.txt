@@ -3,23 +3,23 @@
 
 --- МЕТОД 1: KERAS STANDARD TOKENIZER ---
 Epoch 1/3
-547/547 ━━━━━━━━━━━━━━━━━━━━ 11s 16ms/step - accuracy: 0.7454 - loss: 0.5378 - val_accuracy: 0.8152 - val_loss: 0.4168
+547/547 ━━━━━━━━━━━━━━━━━━━━ 13s 19ms/step - accuracy: 0.6529 - loss: 0.5913 - val_accuracy: 0.8268 - val_loss: 0.4285
 Epoch 2/3
-547/547 ━━━━━━━━━━━━━━━━━━━━ 8s 15ms/step - accuracy: 0.7936 - loss: 0.4419 - val_accuracy: 0.8704 - val_loss: 0.3454
+547/547 ━━━━━━━━━━━━━━━━━━━━ 10s 19ms/step - accuracy: 0.8234 - loss: 0.3972 - val_accuracy: 0.7752 - val_loss: 0.4056
 Epoch 3/3
-547/547 ━━━━━━━━━━━━━━━━━━━━ 8s 15ms/step - accuracy: 0.7958 - loss: 0.4456 - val_accuracy: 0.6894 - val_loss: 0.5422
+547/547 ━━━━━━━━━━━━━━━━━━━━ 10s 19ms/step - accuracy: 0.9050 - loss: 0.2489 - val_accuracy: 0.9000 - val_loss: 0.2402
 
 --- МЕТОД 2: NLTK WORD TOKENIZE ---
 Токенізація через NLTK...
 Epoch 1/3
-547/547 ━━━━━━━━━━━━━━━━━━━━ 10s 17ms/step - accuracy: 0.5439 - loss: 0.6716 - val_accuracy: 0.6668 - val_loss: 0.6255
+547/547 ━━━━━━━━━━━━━━━━━━━━ 9s 15ms/step - accuracy: 0.6843 - loss: 0.5983 - val_accuracy: 0.7162 - val_loss: 0.5927
 Epoch 2/3
-547/547 ━━━━━━━━━━━━━━━━━━━━ 8s 15ms/step - accuracy: 0.8635 - loss: 0.3293 - val_accuracy: 0.9088 - val_loss: 0.2310
+547/547 ━━━━━━━━━━━━━━━━━━━━ 9s 16ms/step - accuracy: 0.7200 - loss: 0.5856 - val_accuracy: 0.7184 - val_loss: 0.5572
 Epoch 3/3
-547/547 ━━━━━━━━━━━━━━━━━━━━ 9s 16ms/step - accuracy: 0.9387 - loss: 0.1649 - val_accuracy: 0.9066 - val_loss: 0.2433
+547/547 ━━━━━━━━━━━━━━━━━━━━ 8s 15ms/step - accuracy: 0.8030 - loss: 0.4373 - val_accuracy: 0.8940 - val_loss: 0.2699
 
 === ТАБЛИЦЯ ПОРІВНЯЛЬНИХ МЕТРИК ===
        Accuracy  Precision    Recall  F1-Score
-Model
-Keras    0.6894   0.597057  0.942385  0.730989
-NLTK     0.9066   0.925144  0.861099  0.891973
+Model                                         
+Keras     0.900   0.878867  0.900849  0.889722
+NLTK      0.894   0.895053  0.864672  0.879600

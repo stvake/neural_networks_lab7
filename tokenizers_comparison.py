@@ -35,6 +35,7 @@ stop_words = set(stopwords.words('english'))
 def clean_text(text):
     text = str(text).lower()
     text = re.sub(r'\s+', ' ', text).strip()
+    text = ' '.join([word for word in text.split() if word not in stop_words])
     return text
 
 
